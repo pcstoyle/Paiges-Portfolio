@@ -79,13 +79,9 @@ main header {
 }
 .card{
     text-align: center;
-    border-style: solid;
-    border-width: 1px;
     padding: 10px;
     min-width: 260px;
 }
-
-
 
 .card header{
     padding: 10px;
