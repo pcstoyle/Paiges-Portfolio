@@ -1,82 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paige Stoyle's Portfolio Page</title>
-    <link rel="stylesheet" href="./style.css">
-  </head>
 
-  <body>
-    <Header>
-        <h1>Paige Stoyle</h1>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paige Stoyle's Portfolio Page</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
 
-        <!--Nav Bar-->
-        <nav>    
-        <ul>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">My Projects</a></li>
-            <li><a href="#">Contact Me</a></li>
-        </ul>
-        </nav>
-    </Header>
+<body>
+  <Header>
+    <h1>Paige Stoyle</h1>
 
-    <hero>
-        <body class = about-me>
-        <h2>About Me</h2>
-        <p>Hi there! I'm excited to meet you! My name is Paige. For over a decade now, I've been in Health and Wellnss, Healthcare and Fitness. I love my work with people and in this industry, however, it's certainly started to take a toll on my body. I decided it's time for a career change that would allow for more consistant hours, reliable work and something that provided a new challenge, which called for a skillset update - enter coding bootcamp!</p>
-        <p>By the end of this bootcamp, I hope to be a competitor in the developing marketplace and land with a company that will allow me to continue to learn and grow with hands on experience. I learn quickly, take feedback and apply it immediately, and am excited to hit the ground running.</p>
-        <p>In my free time, I enjoy spending time with my dog, Luna; I'm a foodie and love to try new restaraunts; and I love to travel and explore new places.</p>
-        <p>Please take a look at my work and let me know how you feel! I'm very much looking forward to connecting with you.</p>
-        </body>
-    </hero>
+    <!--Nav Bar-->
+    <nav>
+      <ul>
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#my-projects">My Projects</a></li>
+        <li><a href="#contact-me">Contact Me</a></li>
+      </ul>
+    </nav>
+  </Header>
+  <main>
 
-    <aside>
-        <img src="./assets/She believed.jpeg"alt="Photo of Paige" style="height:300px; width:200px"> 
+
+
+
+
+
+
+
+
+    <aside id="aside">
+      <h2>About Me</h2>
+      <h2 id="my-projects">My Projects</h2>
+      <h3 id="contact-me">Contact Me</h3>
     </aside>
 
-  <h2>My Projects</h2>
-  <Main>
-      <section class="card">
-        <header><h4>HTML/CSS Refactory Project</h4></header>
-        <img src="./assets/placeholder.jpeg" alt="">
-      </section>
-        
-    
-      <section class="card">
-        <header><h4>CSS</h4></header>
-        <img src="./assets/placeholder.jpeg" alt="">
-      </section>
-        
-    
-      <section class="card">
-        <header><h4>Place Holder JavaScript</h4></header>
-        <img src="./assets/placeholder.jpeg" alt="">
-      </section>
-        
-      <section class="card">
-        <header><h4>Place Holder Four</h4></header>
-        <img src="./assets/placeholder.jpeg" alt="">
-      </section>
+    <div id="projects">
+      <hero id=about-me>
+        <img src="./assets/She believed.jpeg" alt="Photo of Paige" style="height:300px; width:200px">
+        <p>Hi there! I'm excited to meet you! My name is Paige. For over a decade now, I've been in Health and Wellnss,
+          Healthcare and Fitness. I love my work with people and in this industry, however, it's certainly started to
+          take
+          a toll on my body. I decided it's time for a career change that would allow for more consistant hours,
+          reliable
+          work and something that provided a new challenge, which called for a skillset update - enter coding bootcamp!
+          <br>
+          <br>
+          By the end of this bootcamp, I hope to be a competitor in the developing marketplace and land with a company
+          that will allow me to continue to learn and grow with hands on experience. I learn quickly, take feedback and
+          apply it immediately, and am excited to hit the ground running. <br>
+          <br>
+          In my free time, I enjoy spending time with my dog, Luna; I'm a foodie and love to try new restaraunts; and I
+          love to travel and explore new places. <br>
+          <br>
+          Please take a look at my work and let me know how you feel! I'm very much looking forward to connecting with
+          you.
+        </p>
+      </hero>
+      <div id="project-cards">
+        <section class="card" id="card-one">
+          <header>
+            <h4>HTML/CSS Refactory Project</h4>
+          </header>
+          <img src="./assets/placeholder.jpeg" alt="">
+        </section>
 
-      <section class="card">
-        <header><h4>Place Holder Five</h4></header>
-        <img src="./assets/placeholder.jpeg" alt="">
-      </section>
 
-      <section class="card">
-        <header><h4>Place Holder Six</h4></header>
-        <img src="./assets/placeholder.jpeg" alt="">
-      </section>
-  </Main>
+        <section class="card">
+          <header>
+            <h4>CSS</h4>
+          </header>
+          <img src="./assets/placeholder.jpeg" alt="">
+        </section>
 
-    <section>
-        <h3>Contact Me</h3>
+
+        <section class="card">
+          <header>
+            <h4>Place Holder JavaScript</h4>
+          </header>
+          <img src="./assets/placeholder.jpeg" alt="">
+        </section>
+
+        <section class="card">
+          <header>
+            <h4>Place Holder Four</h4>
+          </header>
+          <img src="./assets/placeholder.jpeg" alt="">
+        </section>
+
+        <section class="card">
+          <header>
+            <h4>Place Holder Five</h4>
+          </header>
+          <img src="./assets/placeholder.jpeg" alt="">
+        </section>
+
+        <section class="card">
+          <header>
+            <h4>Place Holder Six</h4>
+          </header>
+          <img src="./assets/placeholder.jpeg" alt="">
+        </section>
+      </div>
+      <section>
+
         <ul>
           <li><strong>Email:</strong> <a href="#">pcstoyle@hotmail.com</a></li>
           <li><strong>Facebook:</strong><a href="#">https://www.facebook.com/paige.stoyle/</a></li>
           <li><strong>Github:</strong><a href="#">https://github.com/pcstoyle</a></li>
         </ul>
-    </section>
-  </body>
+      </section>
+    </div>
+
+
+
+  </main>
+
+  <footer>
+    Thanks for visiting!!
+  </footer>
+</body>
+
 </html>
